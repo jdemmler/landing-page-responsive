@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+ }
+ 
+ /* typegraphy styles */
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;	
+	padding: 10px;
+	padding-bottom:  20px;
+	color: white;
+	text-shadow: 2px 2px #6D929B;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	padding: 10px;
+}
+
+p {
+	font-family: 'Goudy Bookletter 1911', serif; 
+	line-height: 1.4;
+}
+
+/* end typegraphy styles */
+
+/* wrapper styles */
+
+.wrapper {
+	width: 100%;
+}
+
+/* end wrapper styles */
+ 
+ /* HEADER STYLES */
+ 
+ header {
+	width: 100%;
+	height: 100px;
+	z-index: 999;
+	background-color: #6D929B;
+	color: white;
+	position: fixed;
+	border-bottom: 3px white solid;
+}
+ 
+ .logo a {
+	float: left; 
+	text-decoration: none;
+	color: white;
+	font-family: 'Condiment', cursive;
+	font-size: 3em;
+	margin-top: 30px;
+	padding-right: 30px;
+	margin-left: 10px;
+ }
+ 
+ .logo h2 {
+	float: left; 
+	margin-top: 12px;
+	padding-left: 30px;
+	border-left: solid white 1px;
+ }
+ 
+ .inner-header {
+	 max-width: 1400px;
+	min-width: 900px;	
+	margin: 0 auto;
+ }
+ 
+ /* navigation styles */
+
+nav {
+	width: 800px;
+	float: right;
+	}
+	
+nav li {
+	
+}
+
+
+nav a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 130px;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+}
+
+
+nav ul li a:focus,
+nav ul li a:hover,
+nav ul li a:active {
+	text-decoration: underline;
+	color: #C1DAD6;
+}
+
+/* end navigation styles */
+
+
+
+
+
+@media only screen and (max-width:1174px) {
+	
+nav {
+	width: 400px;
+	float: right;
+	}
+
+
+nav a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 130px;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+}	
+	
+	
+}
+
+
+@media only screen and (max-width:768px) {
+	
+	
+	
+	
+}
+
+
+@media only screen and (max-width:480px) {
+	
+	
+	
+	
+}
+
+@media only screen and (max-width:320px) {
+	
+	
+	
+	
+}
+
+
+
+.clear {
+	clear: both;
+}
