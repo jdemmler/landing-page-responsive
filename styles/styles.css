@@ -86,6 +86,7 @@ p {
 
 .wrapper {
 	width: 100%;
+	position: relative;
 }
 
 /* end wrapper styles */
@@ -99,6 +100,11 @@ p {
 	color: white;
 	position: fixed;
 	border-bottom: 3px white solid;
+}
+
+.inner-header {
+	max-width: 1500px;
+	margin: 0 auto;
 }
  
  .logo a {
@@ -166,11 +172,64 @@ nav ul li a:active {
 
 /* end navigation styles */
 
+/* general styles */
 
 
+main {
+	padding-top: 100px;
+}
+
+/* end general styles */
 
 
-@media only screen and (max-width:1126px) {
+/* content Styles */
+
+.html_css, .jquery_jscript, .php, .wordpress, .client_projects, .portfolio {
+	text-align: center;	
+}
+
+.float_left {
+	margin-right: 10px;	
+}
+
+section.html_css > div > div:nth-child(5){
+	margin-right: 0;
+}
+
+/* end content Styles */
+
+/* footer styles */
+
+footer {
+	background-color: #6D929B;
+	height: 100px;
+}
+
+footer p {
+	text-align: left;
+	color: white;
+	float: left;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+footer img {
+	float: right;
+	padding-top: 21px;
+	padding-right: 20px;
+}
+
+/* end footer styles */
+
+.clear {
+	clear: both;
+}
+
+@media only screen and (max-width:1140px) {
+	
+main {
+	padding-top: 123px;
+}	
 	
 nav {
 	width: 550px;
@@ -196,7 +255,13 @@ nav > ul > li:nth-child(2) > a {
 }
 
 
+
+
 @media only screen and (max-width:960px) {
+	
+main {
+	padding-top: 215px;
+}	
 	
 nav {
 	width: 100%;
@@ -211,10 +276,25 @@ nav li {
 	width: 100%;	
 }
 
+footer {
+	height: 100%;	
+}
+
+footer p {
+	width: 100%;	
+}
+
+footer img {
+	float: left;
+}
 
 
 
 @media only screen and (max-width:480px) {
+	
+main {
+	padding-top: 262px;
+}	
 	
 nav li {
 	width: 50%;
@@ -256,6 +336,3 @@ nav li {
 
 
 
-.clear {
-	clear: both;
-}
