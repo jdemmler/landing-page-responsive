@@ -174,6 +174,13 @@ nav ul li a:active {
 
 /* general styles */
 
+.anchor {
+	display: block;
+	height: 100px;
+	margin-top: -100px;
+	visibility: hidden;
+}
+
 
 main {
 	padding-top: 100px;
@@ -190,12 +197,158 @@ main {
 
 .float_left {
 	margin-right: 10px;	
+	margin-bottom: 10px;
 }
 
-section.html_css > div > div:nth-child(5){
+section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section.html_css > div > div:nth-child(5),
+section.jquery_jscript > div > a:nth-child(2) > img,
+section.php > div > a > img,
+section.wordpress > div > a > img,
+section.client_projects > div > a:nth-child(2) > img,
+section.portfolio > div > a > img {
 	margin-right: 0;
 }
 
+/* end content styles */
+
+/* html-css styles */
+
+.html_css  {
+	background-color: #E8D0A9;
+	border-bottom: white 2px solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover_images_css {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover_images_css img {
+	opacity: 0.6;
+}
+
+.hover_images_css img:hover {
+	opacity: 1.0;
+}
+
+/* end html-css styles */
+
+/* jq js styles */
+
+.jquery_jscript {
+	background-color: #B7AFA3;
+	border-bottom: white 2px solid;
+}
+
+.hover_images_jj {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover_images_jj img {
+	opacity: 0.6;
+}
+
+.hover_images_jj img:hover {
+	opacity: 1.0;
+}
+
+/* end jq js styles */
+
+/* php styles */
+
+.php {
+	background-color: #C1DAD6;
+	border-bottom: white 2px solid;
+}
+
+.hover_images_php {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover_images_php img {
+	opacity: 0.6;
+}
+
+.hover_images_php img:hover {
+	opacity: 1.0;
+}
+
+/* end php styles */
+
+/* wordpress styles */
+
+.wordpress {
+	background-color: #F5FAFA;
+	border-bottom: white 2px solid;
+}
+
+.hover_images_wp {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover_images_wp img {
+	opacity: 0.6;
+}
+
+.hover_images_wp img:hover {
+	opacity: 1.0;
+}
+
+/* end wordpress styles */
+
+/* client projects  styles */
+
+.client_projects {
+	background-color: #ACD1E9;
+	border-bottom: white 2px solid;
+}
+
+.hover_images_cp {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover_images_cp img {
+	opacity: 0.6;
+}
+
+.hover_images_cp img:hover {
+	opacity: 1.0;
+}
+
+/* end client projects styles */
+
+/* portfolio styles */
+
+.portfolio {
+	background-color: #E8D0A9;
+	border-bottom: white 2px solid;
+}
+
+.hover_images_port {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hover_images_port img {
+	opacity: 0.6;
+}
+
+.hover_images_port img:hover {
+	opacity: 1.0;
+}
+
+/* end portfolio styles */
 /* end content Styles */
 
 /* footer styles */
@@ -230,6 +383,13 @@ footer img {
 main {
 	padding-top: 123px;
 }	
+
+.anchor {
+	display: block;
+	height: 123px;
+	margin-top: -123px;
+	visibility: hidden;
+}
 	
 nav {
 	width: 550px;
@@ -262,6 +422,13 @@ nav > ul > li:nth-child(2) > a {
 main {
 	padding-top: 215px;
 }	
+
+.anchor {
+	display: block;
+	height: 215px;
+	margin-top: -215px;
+	visibility: hidden;
+}
 	
 nav {
 	width: 100%;
@@ -295,6 +462,13 @@ footer img {
 main {
 	padding-top: 262px;
 }	
+
+.anchor {
+	display: block;
+	height: 262px;
+	margin-top: -262px;
+	visibility: hidden;
+}
 	
 nav li {
 	width: 50%;
