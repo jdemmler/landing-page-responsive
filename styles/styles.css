@@ -125,19 +125,10 @@ p {
 	border-left: solid white 1px;
  }
  
- .twd2 {
-	 display: none;
+ .clear-med {
+	 clear: none;
  }
- 
- 
  /* navigation styles */
- 
-/*.mobile-menu {
-	display: none;
-	text-indent: 150%;
-	white-space: nowrap;
-	overflow: hidden;	
-}*/
 
 nav {
 	width: 750px;
@@ -156,7 +147,7 @@ nav a {
 	display: block;
 	text-align: center;
 	margin-top: 40px;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 nav > ul > li:nth-child(2) > a {
@@ -183,7 +174,7 @@ nav ul li a:active {
 
 
 main {
-	padding-top: 100px;
+	padding-top: 95px;
 }
 
 /* end general styles */
@@ -372,6 +363,11 @@ footer img {
 	padding-right: 20px;
 }
 
+footer img:hover {
+	-webkit-filter: grayscale(1);
+  	filter: grayscale(1)
+}
+
 /* end footer styles */
 
 .clear {
@@ -401,13 +397,23 @@ nav {
 nav li {
 	width: 30%;
 	height: 50px;
-	background-color: #E8D0A9;
-	border: #B7AFA3 2px solid;
+	background-color: #ACD1E9;
+	border: #E8D0A9 2px solid;
 }
 
 nav a {
 	margin: 15px;
-	
+}
+
+nav li:focus,
+nav li:active,
+nav li:hover {
+	border: #E8D0A9 3px dotted;
+	background-color:  #C1DAD6;
+}
+
+nav ul li a:hover {
+	color: white;
 }
 
 nav > ul > li:nth-child(2) > a {
@@ -422,6 +428,24 @@ nav > ul > li:nth-child(2) > a {
 main {
 	padding-top: 215px;
 }	
+
+.clear-med {
+	 clear: both;
+ }
+
+.logo-center {
+	width: 100%;
+}
+
+.logo {
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo a {
+	font-size: 2.4em;
+}
 
 .anchor {
 	display: block;
@@ -439,9 +463,6 @@ nav li {
 	
 }
 
-.logo {
-	width: 100%;	
-}
 
 footer {
 	height: 100%;	
@@ -455,7 +476,10 @@ footer img {
 	float: left;
 }
 
-
+footer img:hover {
+	-webkit-filter: grayscale(1);
+  	filter: grayscale(1)
+}
 
 @media only screen and (max-width:480px) {
 	
@@ -468,6 +492,12 @@ main {
 	height: 262px;
 	margin-top: -262px;
 	visibility: hidden;
+}
+
+.logo {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
 }
 	
 nav li {
@@ -487,24 +517,6 @@ nav li {
 @media only screen and (max-width:320px) {
 	
 	
-	/*.mobile-menu {
-		display: block;
-		float: right;
-		margin-right: 13px;
-		border: 0;
-		width: 46px;
-		height: 46px;
-		background-color: transparent;
-		background-image: url(../images/icon_menu.png);
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center;
-		cursor: pointer;
-	}
-	
-	.show-menu + nav {
-		height: 394px; 
-	}*/
 	
 }
 
