@@ -489,45 +489,53 @@
    			-webkit-filter: grayscale(1);
    			filter: grayscale(1)
    		}
+		
+		@media only screen and (max-width:768px) {
+   		
+		.hover_images_css img, 
+		.hover_images_jj img,
+		.hover_images_php img,
+		.hover_images_wp img,
+		.hover_images_cp img,
+		.hover_images_port img {
+			opacity: 1;	
+		}
+	
+   			}
 
    		@media only screen and (max-width:480px) {
    			
-   			main {
-   				padding-top: 0;
-   			}	
+   		main {
+   			padding-top: 0;
+   		}	
 
-   			.anchor {
-   				display: block;
-   				height: 0;
-   				margin-top: 0;
-   				visibility: hidden;
-   			}
+   		.anchor {
+   			display: block;
+   			height: 0;
+   			margin-top: 0;
+   			visibility: hidden;
+   		}
 
-   			.logo {
-   				width: 320px;
-   				margin-left: auto;
-   				margin-right: auto;
-   			}
+   		.logo {
+   			width: 320px;
+   			margin-left: auto;
+   			margin-right: auto;
+   		}
    			
-   			nav li {
-   				width: 50%;
-   			}
+   		nav li {
+   			width: 50%;
+   		}
 
-   			.logo a {
-   				font-size: 2.4em;
-   				padding-right: 13px;
-   			}
+   		.logo a {
+   			font-size: 2.4em;
+   			padding-right: 13px;
+   		}
 
-   			.logo h2 {
-   				padding-left: 13px;
-   			}
-
-
-   			@media only screen and (max-width:320px) {
-   				
-   				
-   				
-   			}
+   		.logo h2 {
+   			padding-left: 13px;
+   		}
+		
+		}
 
 
 
