@@ -373,6 +373,11 @@
    	filter: grayscale(1)
    }
 
+   .twitter {
+   padding-top: 3%;
+   padding-left: 45%;
+}
+
    /* end footer styles */
 
    .clear {
